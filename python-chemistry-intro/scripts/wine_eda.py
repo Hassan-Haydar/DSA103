@@ -18,16 +18,17 @@ from sklearn.datasets import load_wine
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
+from sklearn.datasets import load_wine
 
 
 # Main analysis function
 def main():
     # --- 1. Load data ---
+    wine_eda = pd.read_csv("data/winequality-red.csv", sep=";")
     print("Loading dataset...")
     wine = load_wine()
     df = pd.DataFrame(wine.data, columns=wine.feature_names)
     # add a 'target' column
-
 
     # print basic info (shape, first rows, summary statistics)
 
@@ -48,6 +49,7 @@ def main():
     # apply PCA (2 components)
     # create a DataFrame with PCA results and target
     # plot and save a scatterplot of the first two components (color by target)
+
 
 # Entry point
 if __name__ == "__main__":
