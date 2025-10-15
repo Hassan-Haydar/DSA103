@@ -24,7 +24,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+from sklearn.metrics import confusion_matrix, classification_report, accuracy_score  # noqa: F401
 
 
 # Main analysis function
