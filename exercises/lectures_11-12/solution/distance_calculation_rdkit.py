@@ -1,6 +1,6 @@
 from rdkit import Chem
 
-mol = Chem.MolFromXYZFile(r"C:\Users\jschoer\Desktop\DSA103 Coding and Tests\DSA103\exercises\lectures_11-12\solution\yne.xyz")
+mol = Chem.MolFromXYZFile(r"/Users/hassanhaydar/DSA103/exercises/lectures_11-12/solution/yne.xyz")
 conf = mol.GetConformer()
 
 atom_1_index = 0
