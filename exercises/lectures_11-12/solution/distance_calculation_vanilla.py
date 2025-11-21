@@ -17,7 +17,7 @@ def bond_distance(coords, i, j):
     return np.linalg.norm(coords[i] - coords[j])
 
 # Example:
-atoms, coords = read_coordinates(r"C:\Users\Hassa\DSA103\exercises\lectures_11-12\yne.gjf")
+atoms, coords = read_coordinates(r"/Users/hassanhaydar/DSA103/exercises/lectures_11-12/yne.gjf")
 print("Atoms:", atoms)
 print("Coordinates:", coords)
 
